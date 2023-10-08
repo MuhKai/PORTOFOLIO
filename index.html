@@ -1,57 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PORTOFOLIO</title>   
+        <title>Portofolio Site</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width">
     </head>
     <body>
-        <h1>PORTOFOLIO</h1>
-        <h3>Muhammad Kaisar Teddy</h3>
-        <h3>122140058</h3>
-        <h3>Kelompok 10</h3>
-        <img src="image/gambar.jpg"/>
-        <h2>Tentang Saya</h2>
-        <p>Seorang mahasiswa <u>Teknik Informatika di Institut Teknologi Sumatera</u>, yang memiliki ketertarikan pada teknologi dan desain grafis.</p>
-        <p> <i>Quotes: "Jangan Berhenti Ketika Lelah, Berhentilah Ketika Berhasil"</i> </p>
-        <h2>Biodata:</h2>
-        <table border="1">
-            <tr>
-                <td><b>Nama</b></td>
-                <td>Muhammad Kaisar Teddy</td>
-            </tr>
-            <tr>
-                <td><b>NIM</b></td>
-                <td>122140058</td>
-            </tr>
-            <tr>
-                <td><b>Tempat,Tanggal Lahir</b></td>
-                <td>Batam, 04 Agustus 2003</td>
-            </tr>
-            <tr>
-            <td><b>Jenis Kelamin</b></td>
-            <td>Laki-laki</td>
-            </tr>
-        </table>
-        <h2>Riwayat Pendidikan</h2>
-        <ol>
-            <li>Institut Teknologi Sumatera</li>
-            <li>SMAN Sumatera Selatan</li>
-            <li>SMP Negeri 06 OKU</li>
-            <li>SD Negeri 71 Palembang</li>
-        </ol>
-
-        <h2>Organisasi</h2>
-        <ol>
-            <li>Anggota Biasa HMIF</li>
-            <li>Staff Muda Divisi Medkom PERSITERA</li>
-        </ol>
-        <h2>Kontak:</h2>
-        <ul>
-            <li>
-                <a href="https://wa.me/+62895604894323">WhatsApp</a>
-            </li>
-            <li>
-                <a href="https://instagram.com/kaiisme">Instagram</a>
-            </li>
-        </ul>
-    <body>
-</html> 
+        <h1 class="judul"> Portofolio </h1>
+        <img class="gambar" src="image/gambar.jpg" />
+        <p class="deskripsi">Saya <b>Muhammad Kaisar Teddy</b> mahasiswa <u>Teknik Informatika di Institut Teknologi Sumatera</u></p>
+        <p><i>Quote: "Jangan Berhenti Ketika Lelah, Berhentilah Ketika Berhasil"</i></p>
+        <h2>📄Biodata</h2>
+        <div class="panel">
+            <table class="tabel-biodata" border="1">
+                <tr>
+                    <td>🗒 Nama</td>
+                    <td>Muhammad Kaisar Teddy</td>
+                </tr>
+                <tr>
+                    <td>🖋 NIM</td>
+                    <td>122140058</td>
+                </tr>
+                <tr>
+                    <td>♂️ Jenis Kelamin</td>
+                    <td>Laki-laki</td>
+                </tr>
+                <tr>
+                    <td>📆 Umur</td>
+                    <td>20 Tahun</td>
+                </tr>
+            </table>
+        </div>
+        <h2>📚Pendidikan</h2>
+        <div class="panel">
+            <ol>
+                <li>Institut Teknologi Sumatera</li>
+                <li>SMAN Sumatera Selatan</li>
+                <li>SMP Negeri 06 OKU</li>
+            </ol>
+        </div>
+        <h2>☎️Kontak</h2>
+        <div class="panel">
+            <a href="https://wa.me/+62895604894323">📱 Whatsapp</a>
+            <a href="https://instagram.com/kaiisme_">📷 Instagram</a>
+        </div>
+    </body>
+</html>
